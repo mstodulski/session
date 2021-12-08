@@ -1,0 +1,25 @@
+{
+	"name": "mstodulski/session",
+	"license": "MIT",
+	"description": "",
+	"keywords": ["library", "session"],
+	"homepage": "https://devsprint.pl",
+	"authors": [
+		{
+			"name": "Marcin Stodulski",
+			"homepage": "https://devsprint.pl",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"mstodulski\\session\\": "src"
+		},
+		"exclude-from-classmap": [
+			"/test/"
+		]
+	},
+	"require": {
+		"php": ">=8.1"
+	}
+}
